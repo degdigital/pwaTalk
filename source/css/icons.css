@@ -1,0 +1,8 @@
+.icon--home {
+	background: url('../images/home.svg') center center no-repeat;
+	background-size: cover;
+	height: 1.5rem;
+	margin: 0 auto;
+    width: 1.9375rem;
+    display: block;
+}

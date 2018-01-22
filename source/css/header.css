@@ -1,0 +1,23 @@
+.header {
+    background-color: #1177c6;
+    color: #fff;
+    font-size: responsive 12px 22px;
+    padding: 1.25em 1.5em;
+}
+
+.header__title {
+	align-items: center;
+	display: flex;
+    font-size: 1.5em;
+    font-weight: 700;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.logo {
+	height: 1.75em;
+	margin-right: 1em;
+	width: 3.25em;
+}

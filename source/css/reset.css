@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #ececec;
+    color: #444;
+    font-display: optional;
+    font-family: 'open_sansregular', sans-serif;
+    font-weight: 400;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    align-content: stretch;
+    align-items: stretch;
+    background: #ececec;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 1rem;
+    justify-content: space-between;
+}

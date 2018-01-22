@@ -1,0 +1,17 @@
+curl -X POST -H "Authorization: key=AIzaSyAjSNfbZCLz0DA0WLOMcY7s3J8qrcW1qd4" -H "Content-Type: application/json" -d '{
+  "notification": {
+    "title": "DEG PWA Talk",
+    "body": "Device test"
+  },
+  "to": "eXB1CGjA6Nk:APA91bFWUC-sbO1PSFDATHqE7wNse0IXnk5FYLq2AyePrlzy3d4etSgQ5XTPA5JN05ycJFh3btAQZMo59MePN0ux2wta9NvQ0l-f06DBrP_05Uuz2Ltaf-XY9Ku05IoAIKgJ16cEWeQF"
+}' "https://fcm.googleapis.com/fcm/send"
+
+
+curl -X POST -H "Authorization: key=AIzaSyAjSNfbZCLz0DA0WLOMcY7s3J8qrcW1qd4" -H "Content-Type: application/json" -d '{
+  "priority" : "high",
+  "notification": {
+    "title": "DEG PWA Talk",
+    "body": "Topic test"
+  },
+  "to": "/topics/pwaDemo"
+}' "https://fcm.googleapis.com/fcm/send"

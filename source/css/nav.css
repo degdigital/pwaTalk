@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    margin: 0 auto;
+    max-width: 20rem;
+    padding: 0 1rem;
+}
+
+.nav-button {
+    -webkit-user-select: none !important;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    flex: 1;
+    font-size: 1rem;
+    outline: 0;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.nav-button--back:before,
+.nav-button--next:after {
+	background: url('../images/arrow.svg') center center no-repeat;
+	content: "";
+	display: block;
+	height: 1.25rem;
+	position: absolute;
+	top: 50%;
+    width: 1.125rem;
+}
+
+.nav-button--back:before {
+	transform: rotate(270deg);
+	transform-origin: left;
+}
+
+.nav-button--next:after {
+	right: 0;
+	transform: rotate(90deg);
+	transform-origin: right;
+}
