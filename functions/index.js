@@ -19,6 +19,27 @@ exports.subscribeTokenToTopic = functions.https.onRequest((req, res) => {
 		});
 });
 
+exports.enterMessage = functions.https.onRequest((req, res) => {
+
+	res.status(200).send(`
+		<!doctype html>
+		<html>
+			<head>
+				<title>Send Message</title>
+		    </head>
+		    <body>
+		    	<form method="GET" action="https://us-central1-pwatalk.cloudfunctions.net/sendMessage">
+		    		<div class="field">
+		    			<label for="body">Message:</label><br>
+		    			<input id="body" name="body" required><br><br>
+		    			<button type="submit">Send Message</button>
+		    		</div>
+		    	</form>
+		    </body>
+	    </html>`
+	);
+});
+
 exports.sendMessage = functions.https.onRequest((req, res) => {
 
 	// https://us-central1-pwatalk.cloudfunctions.net/sendMessage?body=This%20is%20a%20test
@@ -39,7 +60,7 @@ exports.sendMessage = functions.https.onRequest((req, res) => {
 						<title>Send Message</title>
 				    </head>
 				    <body>
-				    	Send Success
+				    	Your message has been sent.
 				    </body>
 			    </html>`
 			);
