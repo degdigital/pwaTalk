@@ -16,7 +16,8 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "build": "postcss ./source/css/main.css -o ./public/css/main.css"
+    "build": "node build",
+    "start": "node build && firebase serve"
   },
   "repository": {
     "type": "git",
@@ -25,15 +26,19 @@
   "dependencies": {
     "autoprefixer": "^7.1.1",
     "csswring": "^5.1.1",
+    "fs-extra": "^5.0.0",
+    "node-dir": "^0.1.17",
     "postcss": "^5.2.18",
     "postcss-cli": "^4.1.0",
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.2",
     "postcss-import": "^8.2.0",
     "postcss-nested": "^1.0.1",
-    "postcss-responsive-type": "^0.4.0"
+    "postcss-responsive-type": "^0.4.0",
+    "uglify-es": "^3.3.10"
   },
   "browserslist": [
     "last 2 versions"
-  ]
+  ],
+  "devDependencies": {}
 }

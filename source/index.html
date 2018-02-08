@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="canonical" href="https://pwatalk.firebaseapp.com/">
+        <title>PWA Talk</title>
+        <link rel="manifest" href="/manifest.json">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="PWA Talk">
+        <meta name="theme-color" content="#ececec">
+        <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+        <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+        <meta name="msapplication-TileColor" content="#2F3BA2">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyDcY7PQYjYRHC5pJjjWoYbzcLJX1usk7x4",
+                authDomain: "pwatalk.firebaseapp.com",
+                databaseURL: "https://pwatalk.firebaseio.com",
+                projectId: "pwatalk",
+                storageBucket: "pwatalk.appspot.com",
+                messagingSenderId: "538992840354"
+            };
+            firebase.initializeApp(config);
+        </script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__title"><img class="logo" src="images/logo.svg"> PWA Talk</div>
+        </header>
+        <main class="main slides-container js-slides-container">
+        </main>
+        <footer class="footer">
+            <nav class="nav">
+                <button class="nav-button nav-button--back js-nav-button" data-direction="back">Back</button>
+                <button class="nav-button nav-button--home js-nav-button" data-direction="home"><i class="icon--home"></i></button>
+                <button class="nav-button nav-button--next js-nav-button" data-direction="next">Next</button>
+            </nav>
+        </footer>
+        <div class="loader js-loader">
+            <svg viewBox="0 0 32 32" width="32" height="32">
+                <circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
+            </svg>
+        </div>
+        <script src="js/app.js" type="module"></script>
+    </body>
+</html>

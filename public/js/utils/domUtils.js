@@ -1,14 +1,1 @@
-function emptyElement(el) {
-    while (el.firstChild) {
-        el.removeChild(el.firstChild);
-    }
-}
-
-function replaceContent(el, newContent) {
-    emptyElement(el);
-    el.insertAdjacentHTML('afterbegin', newContent);
-}
-
-export {
-	replaceContent
-};
+function emptyElement(e){for(;e.firstChild;)e.removeChild(e.firstChild)}function replaceContent(e,t){emptyElement(e),e.insertAdjacentHTML("afterbegin",t)}export{replaceContent};
