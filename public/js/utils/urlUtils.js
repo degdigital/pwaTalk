@@ -1,8 +1,1 @@
-function getUrlParameter(name, queryString = window.location.search) {
-	let match = RegExp('[?&]' + name + '=([^&]*)').exec(queryString);
-	return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
-}
-
-export {
-	getUrlParameter
-};
+function getUrlParameter(e,r=window.location.search){let t=RegExp("[?&]"+e+"=([^&]*)").exec(r);return t&&decodeURIComponent(t[1].replace(/\+/g," "))}export{getUrlParameter};
