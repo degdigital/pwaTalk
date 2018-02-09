@@ -67,8 +67,7 @@ const buildImages = () => {
 const buildMisc = () => {
 	const files = [
 		'index.html',
-		'manifest.json',
-		'slides.json'
+		'manifest.json'
 	];
 
 	files.forEach(file => {
@@ -79,7 +78,35 @@ const buildMisc = () => {
 	});
 }
 
+buildSlides = () => {
+	const minify = require('html-minifier').minify;
+	const slidesSourceDirPath = './source/slides/';
+	const slidesDestFilepath = './public/slides.json';
+	const slidesData = require('./source/slides.json');
+
+	dir.readFiles(slidesSourceDirPath,
+	    function(err, content, filename, next) {
+	    	const slideIndex = getSlideIndexFromFilename(filename);
+	    	slidesData[slideIndex].content = jsonifySlideContent(content);
+	    	next();
+	    },
+	    function() {
+	    	fs.writeFile(slidesDestFilepath, JSON.stringify(slidesData));
+	    });	
+}
+
+jsonifySlideContent = content => {
+	return content.replace(/\r?\n|\r/g, " ").replace('"', '\"');
+}
+
+getSlideIndexFromFilename = filepath => {
+	const filename = path.basename(filepath, '.html');
+	const index = filename.replace('slide-', '');
+	return parseInt(index) - 1;
+}
+
 buildCSS();
 buildJS();
 buildImages();
 buildMisc();
+buildSlides();

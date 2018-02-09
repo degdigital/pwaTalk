@@ -78,7 +78,7 @@ function renderSlides(slideData) {
 		${output}
 		<section class="slide ${slideClass} slide--${index} ${hiddenClass}">
 			<div class="slide__contents-wrapper">
-				<h1 class="slide__heading">${slide.heading}</h1>
+				${slide.heading ? `<h1 class="slide__heading">${slide.heading}</h1>` : ''}
 				${slide.subHeading ? `<h2 class="slide__subheading">${slide.subHeading}</h2>` : ''}
 				${slide.content ? `<div class="slide__content">${slide.content}</div>` : ''}
 			</div>
