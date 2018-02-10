@@ -8,34 +8,61 @@ const nav = function() {
 
 	function bindEvents() {
 		document.addEventListener('click', onDocClick);
+		document.addEventListener('keydown', onKeyDown);
 	}
 
 	function init(newSlides) {
 		slides = newSlides;
-		advanceSlides(currentIndex);
-		setUrl(currentIndex);
+		goToSlide(currentIndex);
 	}
 
 	function onDocClick(e) {
-		const el = e.target;
-		if (el.classList.contains('js-nav-button')) {
+		const el = e.target.closest('.js-nav-button');
+		if (el) {
 			const direction = el.dataset.direction;
-			if (direction === 'back') {
-				currentIndex = currentIndex === 0 ? 0 : currentIndex - 1;
-			} else if (direction === 'next') {
-				currentIndex = currentIndex + 1 > slides.length - 1 ? currentIndex : currentIndex + 1;
-			} else if (direction === 'home') {
-				currentIndex = 0;
-			}
-			advanceSlides(currentIndex);
-			setUrl(currentIndex);
+			switch(direction) {
+				case 'back':
+					goToPreviousSlide();
+					break;
+				case 'next':
+					goToNextSlide();
+					break;
+				case 'home':
+					goToSlide(0);
+					break;
+			}		
 		}
 	}
 
-	function advanceSlides(newIndex) {
-		slides.forEach((slide, index) => {
+	function onKeyDown(e) {
+		switch(e.keyCode) {
+			case 37:
+				goToPreviousSlide();
+				break;
+			case 39:
+				goToNextSlide();
+				break;
+		}
+	}
+
+	function goToPreviousSlide() {
+		goToSlide(currentIndex-1);
+	}
+
+	function goToNextSlide() {
+		goToSlide(currentIndex+1);
+	}
+
+	function goToSlide(index) {
+		if(index < 0 || index > (slides.length-1)) {
+			return;
+		}
+
+		currentIndex = index;
+		setUrl(currentIndex);
+		slides.forEach((slide, slideIndex) => {
 			const cls = slide.classList;
-			if (index === currentIndex) {
+			if (slideIndex === currentIndex) {
 				cls.remove(hiddenClass);
 			} else {
 				cls.add(hiddenClass);
