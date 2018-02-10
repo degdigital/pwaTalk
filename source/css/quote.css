@@ -1,0 +1,16 @@
+.quote {
+	margin: 0;
+}
+
+.quote__text {
+	font-style: italic;
+
+	&:before, &:after {
+		content: '"';
+	}
+}
+
+.quote__cite {
+	text-align: right;
+	font-style: normal;
+}

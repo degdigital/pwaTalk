@@ -4,6 +4,21 @@
 		"subHeading": "Fun with Progressive Web Applications"
 	},
 	{
-		"heading": ""
+		"contentFile": "intro-steve-jobs-image" 
+	},
+	{
+		"heading": "A Man Before His Time",
+		"contentFile": "intro-steve-jobs-quote"
+	},
+	{
+		"heading": "2007",
+		"contentFile": "intro-2007"
+	},
+	{
+		"heading": "2008",
+		"contentFile": "intro-2008"
+	},
+	{
+		"contentFile": "intro-iphone-video"
 	}
 ]

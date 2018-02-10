@@ -84,25 +84,34 @@ buildSlides = () => {
 	const slidesDestFilepath = './public/slides.json';
 	const slidesData = require('./source/slides.json');
 
-	dir.readFiles(slidesSourceDirPath,
-	    function(err, content, filename, next) {
-	    	const slideIndex = getSlideIndexFromFilename(filename);
-	    	slidesData[slideIndex].content = jsonifySlideContent(content);
-	    	next();
-	    },
-	    function() {
-	    	fs.writeFile(slidesDestFilepath, JSON.stringify(slidesData));
-	    });	
+	const processedFiles = slidesData
+		.filter(slideData => slideData.contentFile)
+		.map(slideData => {
+			const contentFilename = getFullContentFilename(slideData.contentFile, slidesSourceDirPath);
+			return fs.readFile(contentFilename, {encoding: 'utf8'})
+				.then(contents => {
+					slideData.content = contents;
+					delete slideData.contentFile;
+				})
+				.catch(err => console.log(`Error reading content file ${contentFilename}`, err));
+		});	
+
+	Promise.all(processedFiles)
+		.then(() => fs.writeFile(slidesDestFilepath, JSON.stringify(slidesData)));
 }
 
 jsonifySlideContent = content => {
 	return content.replace(/\r?\n|\r/g, " ").replace('"', '\"');
 }
 
-getSlideIndexFromFilename = filepath => {
-	const filename = path.basename(filepath, '.html');
-	const index = filename.replace('slide-', '');
-	return parseInt(index) - 1;
+getFullContentFilename = (filename, dirPath) => {
+	let contentFilename = filename;
+	
+	if(!contentFilename.endsWith('.html')) {
+		contentFilename += '.html';
+	}
+
+	return path.resolve(dirPath, contentFilename);
 }
 
 buildCSS();
