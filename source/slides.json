@@ -20,5 +20,54 @@
 	},
 	{
 		"contentFile": "intro-iphone-video"
+	},
+	{
+		"heading": "Why Did This Happen?"
+	},
+	{
+		"heading": "Native Apps vs Web Apps",
+		"subHeading": "Fight! Fight! Fight!"
+	},
+	{
+		"heading": "Native Apps",
+		"subHeading": "The Good and the Bad"
+	},
+	{
+		"heading": "The Upside of Native Apps",
+		"contentFile": "native-apps-benefits"
+	},
+	{
+		"heading": "The Downside of Native Apps",
+		"contentFile": "native-apps-drawbacks"
+	},
+	{
+		"heading": "Web Apps",
+		"subHeading": "The Good and the Bad"
+	},
+	{
+		"heading": "The Upside of Web Apps",
+		"contentFile": "web-apps-benefits"
+	},
+	{
+		"heading": "The Downside of Web Apps",
+		"contentFile": "web-apps-drawbacks"
+	},
+	{
+		"heading": "The Web is Catching Up"
+	},
+	{
+		"heading": "Enter the PWA",
+		"subHeading": "(pronounced /pwä/)"
+	},
+	{
+		"heading": "What the Devil is a PWA?",
+		"contentFile": "what-is-a-pwa"
+	},
+	{
+		"heading": "Characteristics of a PWA"
+	},
+	{
+		"heading": "Standard Traits",
+		"contentFile": "standard-pwa-traits"
 	}
 ]
