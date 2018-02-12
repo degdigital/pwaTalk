@@ -76,16 +76,23 @@ function saveSlideData(slideData) {
 }
 
 function renderSlides(slideData) {
-	replaceContent(slidesContainerEl, slideData.reduce((output, slide, index) => `
-		${output}
-		<section class="slide ${slideClass} slide--${index} ${hiddenClass} ${slide.isCentered ? slideCenteredClass : ''}">
-			<div class="slide__contents-wrapper">
-				${slide.heading ? `<h1 class="slide__heading">${slide.heading}</h1>` : ''}
-				${slide.subHeading ? `<h2 class="slide__subheading">${slide.subHeading}</h2>` : ''}
-				${slide.content ? `<div class="slide__content">${slide.content}</div>` : ''}
-			</div>
-		</section>
-	`, ''));
+	replaceContent(slidesContainerEl, slideData.reduce((output, slide, index) => {
+		const style = slide.backgroundImage ? `background-image: url('${slide.backgroundImage}');` : '';
+		const cssClasses = ['slide', `slide--${index}`, slideClass, hiddenClass];
+		if(slide.isCentered) {
+			cssClasses.push(slideCenteredClass);
+		}
+		return `
+			${output}
+			<section class="${cssClasses.join(' ')}" style="${style}">
+				<div class="slide__contents-wrapper">
+					${slide.heading ? `<h1 class="slide__heading ${slide.isTitle ? 'slide__heading--title' : ''}">${slide.heading}</h1>` : ''}
+					${slide.subHeading ? `<h2 class="slide__subheading">${slide.subHeading}</h2>` : ''}
+					${slide.content ? `<div class="slide__content">${slide.content}</div>` : ''}
+				</div>
+			</section>
+		`
+	}, ''));
 	slideEls = Array.from(slidesContainerEl.querySelectorAll(`.${slideClass}`));
 	navInst.init(slideEls);
 	loaderInst.hide();

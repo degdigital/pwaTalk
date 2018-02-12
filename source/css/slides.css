@@ -12,6 +12,9 @@
     flex-grow: 1;
     font-size: responsive 12px 26px;
     padding: 1em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .slide--centered {
@@ -37,6 +40,7 @@
 
 .slide__content {
     height: 100%;
+    font-size: 1.125em;
 }
 
 .slide__heading {
@@ -50,6 +54,11 @@
         font-size: 1.375em;
         margin: .25em 0;
     }
+}
+
+.slide__heading--title {
+    font-size: 3.5em;
+    color: var(--color-white);
 }
 
 .slide__subheading {

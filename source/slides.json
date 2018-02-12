@@ -1,8 +1,9 @@
 [
 	{
 		"heading": "R.O.C.K in the P.W.A.",
-		"subHeading": "Fun with Progressive Web Applications",
-		"isCentered": true
+		"isTitle": true,
+		"isCentered": true,
+		"backgroundImage": "/images/slides/title-bg.jpg"
 	},
 	{
 		"contentFile": "intro-steve-jobs-image" 
