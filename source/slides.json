@@ -119,7 +119,7 @@
 		"contentFile": "advanced-pwa-traits-re-engageable"
 	},
 	{
-		"heading": "How PWA's Improve Upon Traditional Web Apps",
+		"heading": "How PWAs Improve Upon Traditional Web Apps",
 		"isCentered": true
 	},
 	{
@@ -127,11 +127,11 @@
 		"contentFile": "web-apps-drawbacks"
 	},
 	{
-		"heading": "PWA's: The Good",
+		"heading": "PWAs: The Good",
 		"contentFile": "pwa-over-trad-website"
 	},
 	{
-		"heading": "How PWA's Improve Upon Native Apps",
+		"heading": "How PWAs Improve Upon Native Apps",
 		"isCentered": true
 	},
 	{
@@ -139,11 +139,11 @@
 		"contentFile": "native-apps-drawbacks"
 	},
 	{
-		"heading": "PWA's: The Good",
+		"heading": "PWAs: The Good",
 		"contentFile": "pwa-over-native-app"
 	},
 	{
-		"heading": "How We Can Incorporate PWA's Into Client Projects",
+		"heading": "How We Can Incorporate PWAs Into Client Projects",
 		"isCentered": true
 	},
 	{
@@ -195,7 +195,7 @@
 		"contentFile": "challenges-outside-control"
 	},
 	{
-		"heading": "PWA's in the Wild",
+		"heading": "PWAs in the Wild",
 		"isCentered": true
 	},
 	{
@@ -207,12 +207,12 @@
 		"isCentered": true
 	},
 	{
-		"heading": "Discovering PWA's",
+		"heading": "Discovering PWAs",
 		"subHeading": "Go Find 'Em Yourself!",
 		"isCentered": true
 	},
 	{
-		"heading": "Discovering PWA's",
+		"heading": "Discovering PWAs",
 		"contentFile": "discovering-pwas"
 	},
 	{
