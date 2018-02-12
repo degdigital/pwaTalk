@@ -11,3 +11,12 @@ img {
 .image--align-center {
 	margin: 0 auto;
 }
+
+
+@media (min-width: 40em) {
+
+	.image--align-right {
+		float: right;
+		margin: 0 0 1.5em 1.5em;
+	}
+}

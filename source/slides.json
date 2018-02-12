@@ -8,23 +8,22 @@
 		"contentFile": "intro-steve-jobs-image" 
 	},
 	{
-		"heading": "A Man Before His Time",
+		"heading": "An Early Advocate for Web Apps",
 		"contentFile": "intro-steve-jobs-quote"
 	},
 	{
-		"heading": "2007",
+		"heading": "iPhone Apps Timeline: 2007",
 		"contentFile": "intro-2007"
 	},
 	{
-		"heading": "2008",
+		"heading": "iPhone Apps Timeline: 2008",
 		"contentFile": "intro-2008"
 	},
 	{
 		"contentFile": "intro-iphone-video"
 	},
 	{
-		"heading": "Native Apps vs Web Apps",
-		"subHeading": "Fight! Fight! Fight!",
+		"heading": "<strong>Native Apps</strong> vs <strong>Web Apps</strong>",
 		"isCentered": true
 	},
 	{
@@ -33,11 +32,11 @@
 		"isCentered": true
 	},
 	{
-		"heading": "The Upside of Native Apps",
+		"heading": "Native Apps: The Good",
 		"contentFile": "native-apps-benefits"
 	},
 	{
-		"heading": "The Downside of Native Apps",
+		"heading": "Native Apps: The Bad",
 		"contentFile": "native-apps-drawbacks"
 	},
 	{
@@ -46,11 +45,11 @@
 		"isCentered": true
 	},
 	{
-		"heading": "The Upside of Web Apps",
+		"heading": "Web Apps: The Good",
 		"contentFile": "web-apps-benefits"
 	},
 	{
-		"heading": "The Downside of Web Apps",
+		"heading": "Web Apps: The Bad",
 		"contentFile": "web-apps-drawbacks"
 	},
 	{
@@ -99,7 +98,7 @@
 		"contentFile": "advanced-pwa-traits"
 	},
 	{
-		"heading": "Feel Link an App",
+		"heading": "Feels Like an App",
 		"contentFile": "advanced-pwa-traits-app-feel"
 	},
 	{
@@ -123,11 +122,11 @@
 		"isCentered": true
 	},
 	{
-		"heading": "The Downside of Web Apps",
+		"heading": "Web Apps: The Bad",
 		"contentFile": "web-apps-drawbacks"
 	},
 	{
-		"heading": "The Upside of PWA's",
+		"heading": "PWA's: The Good",
 		"contentFile": "pwa-over-trad-website"
 	},
 	{
@@ -135,11 +134,11 @@
 		"isCentered": true
 	},
 	{
-		"heading": "The Downside of Native Apps",
+		"heading": "Native Apps: The Bad",
 		"contentFile": "native-apps-drawbacks"
 	},
 	{
-		"heading": "The Upside of PWA's",
+		"heading": "PWA's: The Good",
 		"contentFile": "pwa-over-native-app"
 	},
 	{
@@ -191,7 +190,7 @@
 		"contentFile": "discovering-pwas"
 	},
 	{
-		"heading": "Let's Revisit Steve and His iPhone",
+		"heading": "Let's Revisit Steve and His Little Phone",
 		"isCentered": true
 	},
 	{
