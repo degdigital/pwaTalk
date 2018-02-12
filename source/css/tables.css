@@ -3,6 +3,63 @@ table {
 }
 
 th, td {
-	padding: .5em 1em;
 	border: 1px solid var(--color-gray-light-40);
+	padding: .5em 1em;
+}
+
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 64em) {
+	
+	table,
+	thead,
+	tbody,
+	tr {
+		display: block;
+	}
+
+
+	th {
+		display: none;
+	}
+
+	tr:first-child td:first-child {
+		border-top: 1px solid var(--color-gray-light-40);
+	}
+
+	td {
+		align-items: center;
+		border-bottom: 0;
+		border-top: 0;
+		display: flex;
+		text-align: left;
+
+		&:before {
+			content: attr(data-title);
+			font-weight: 700;
+			margin-right: 0.25rem;
+		}
+
+		&:first-child {
+			font-size: 1.25rem;
+			font-weight: 700;
+			padding-left: 0.5rem;
+		}
+
+		&:last-child {
+			border-bottom: 1px solid var(--color-gray-light-40);
+		}
+
+		.icon--checkmark {
+			display: inline-block;
+			height: 1rem;
+			margin: 0;
+			width: 1rem;
+		}
+
+	}
+
 }

@@ -1,6 +1,7 @@
 import {replaceContent} from './utils/domUtils.js';
 import loader from './loader.js';
 import nav from './nav.js';
+import checkbox from './checkbox.js';
 
 const slidesContainerEl = document.querySelector('.js-slides-container');
 const loaderInst = loader();

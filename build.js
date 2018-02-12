@@ -79,7 +79,6 @@ const buildMisc = () => {
 }
 
 buildSlides = () => {
-	const minify = require('html-minifier').minify;
 	const slidesSourceDirPath = './source/slides/';
 	const slidesDestFilepath = './public/slides.json';
 	const slidesData = require('./source/slides.json');
