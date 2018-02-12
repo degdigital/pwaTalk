@@ -13,3 +13,7 @@
     font-style: normal;
     font-weight: 700;
 }
+
+p {
+	margin: 0 0 1.5em 0;
+}

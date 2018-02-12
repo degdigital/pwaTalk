@@ -6,6 +6,10 @@ img {
 .image {
 	max-height: 100%;
 	display: block;
+
+	&:not(:last-child) {
+		margin-bottom: 1.5em;
+	}
 }
 
 .image--align-center {
@@ -13,7 +17,7 @@ img {
 }
 
 
-@media (min-width: 40em) {
+@media (min-width: 48em) {
 
 	.image--align-right {
 		float: right;
