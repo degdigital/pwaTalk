@@ -1,5 +1,6 @@
 table {
 	border-collapse: collapse;
+	margin-left: -15%;
 }
 
 th, td {
@@ -14,6 +15,10 @@ th, td {
 
 @media screen and (max-width: 64em) {
 	
+	table {
+		margin-left: 0;
+	}
+
 	table,
 	thead,
 	tbody,

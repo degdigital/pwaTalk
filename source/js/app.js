@@ -8,6 +8,8 @@ const loaderInst = loader();
 const navInst = nav();
 const slideClass = 'js-slide';
 const slideCenteredClass = 'slide--centered';
+const slideFullBleedClass = 'slide--full-bleed';
+const sectionTitleClass = 'slide--section-title';
 const hiddenClass = 'is-hidden';
 const subscribeUrl = 'https://us-central1-pwatalk.cloudfunctions.net/subscribeTokenToTopic';
 const topic = 'pwaDemo';
@@ -82,12 +84,18 @@ function renderSlides(slideData) {
 		if(slide.isCentered) {
 			cssClasses.push(slideCenteredClass);
 		}
+		if (slide.isFullBleed) {
+			cssClasses.push(slideFullBleedClass);
+		}
+		if (slide.isSectionTitle) {
+			cssClasses.push(sectionTitleClass);
+		}
 		return `
 			${output}
 			<section class="${cssClasses.join(' ')}" style="${style}">
 				<div class="slide__contents-wrapper">
 					${slide.heading ? `<h1 class="slide__heading ${slide.isTitle ? 'slide__heading--title' : ''}">${slide.heading}</h1>` : ''}
-					${slide.subHeading ? `<h2 class="slide__subheading">${slide.subHeading}</h2>` : ''}
+					${slide.subHeading ? `<h2 class="slide__subheading"${slide.subHeadingIsEditable === true ? ' contenteditable="true"' : ''}>${slide.subHeading}</h2>` : ''}
 					${slide.content ? `<div class="slide__content">${slide.content}</div>` : ''}
 				</div>
 			</section>

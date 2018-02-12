@@ -2,6 +2,7 @@
 	{
 		"heading": "R.O.C.K in the P.W.A.",
 		"isTitle": true,
+		"isFullBleed": true,
 		"isCentered": true,
 		"backgroundImage": "/images/slides/title-bg.jpg"
 	},
@@ -25,7 +26,8 @@
 	},
 	{
 		"heading": "<strong>Native Apps</strong> vs <strong>Web Apps</strong>",
-		"isCentered": true
+		"isCentered": true,
+		"isSectionTitle": true
 	},
 	{
 		"heading": "Native Apps",
@@ -55,7 +57,8 @@
 	},
 	{
 		"heading": "The Web is Catching Up",
-		"isCentered": true
+		"isCentered": true,
+		"isSectionTitle": true
 	},
 	{
 		"heading": "Enter the PWA",
@@ -68,7 +71,8 @@
 	},
 	{
 		"heading": "Characteristics of a PWA",
-		"isCentered": true
+		"isCentered": true,
+		"isSectionTitle": true
 	},
 	{
 		"heading": "Standard Traits",
@@ -120,7 +124,8 @@
 	},
 	{
 		"heading": "How PWAs Improve Upon Traditional Web Apps",
-		"isCentered": true
+		"isCentered": true,
+		"isSectionTitle": true
 	},
 	{
 		"heading": "Web Apps: The Bad",
@@ -132,7 +137,8 @@
 	},
 	{
 		"heading": "How PWAs Improve Upon Native Apps",
-		"isCentered": true
+		"isCentered": true,
+		"isSectionTitle": true
 	},
 	{
 		"heading": "Native Apps: The Bad",
@@ -144,7 +150,8 @@
 	},
 	{
 		"heading": "How We Can Incorporate PWAs Into Client Projects",
-		"isCentered": true
+		"isCentered": true,
+		"isSectionTitle": true
 	},
 	{
 		"heading": "Imaginary Client A",
@@ -179,6 +186,7 @@
 	{
 		"heading": "Imaginary Client C",
 		"subHeading": "??????",
+		"subHeadingIsEditable": true,
 		"contentFile": "imaginary-client-c-checklist-empty"
 	},
 	{
@@ -196,7 +204,8 @@
 	},
 	{
 		"heading": "PWAs in the Wild",
-		"isCentered": true
+		"isCentered": true,
+		"isSectionTitle": true
 	},
 	{
 		"heading": "Examples",
@@ -217,7 +226,8 @@
 	},
 	{
 		"heading": "Let's Revisit Steve and His Little Phone",
-		"isCentered": true
+		"isCentered": true,
+		"isSectionTitle": true
 	},
 	{
 		"heading": "iPhone Apps Timeline",

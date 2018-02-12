@@ -1,5 +1,5 @@
 .header {
-    background-color: #1177c6;
+    background-color: var(--color-blue);
     color: #fff;
     font-size: responsive 12px 22px;
     padding: 1em 1.5em;

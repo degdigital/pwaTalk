@@ -23,7 +23,7 @@ html {
 body {
     align-content: stretch;
     align-items: stretch;
-    background: #ececec;
+    background: var(--color-gray-light-40);
     color: #444;
     display: flex;
     flex-direction: column;

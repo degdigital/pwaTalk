@@ -1,0 +1,14 @@
+@media screen and (min-width: 48.0625em) {
+
+	.columns {
+		column-gap: 3.5em;
+		columns: 2;
+
+		> * {
+			break-inside: avoid;
+			line-height: 1.75;
+		}
+
+	}
+
+}

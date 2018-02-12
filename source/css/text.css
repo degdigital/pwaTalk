@@ -14,6 +14,6 @@
     font-weight: 700;
 }
 
-p {
-	margin: 0 0 1.5em 0;
+.text--reduced-size {
+    font-size: responsive 12px 28px;
 }
