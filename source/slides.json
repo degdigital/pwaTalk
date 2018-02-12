@@ -113,7 +113,84 @@
 	{
 		"heading": "Re-engageable",
 		"contentFile": "advanced-pwa-traits-re-engageable"
+	},
+	{
+		"heading": "How PWA's Improve Upon Traditional Web Apps"
+	},
+	{
+		"heading": "The Downside of Web Apps",
+		"contentFile": "web-apps-drawbacks"
+	},
+	{
+		"heading": "The Upside of PWA's",
+		"contentFile": "pwa-over-trad-website"
+	},
+	{
+		"heading": "How PWA's Improve Upon Native Apps"
+	},
+	{
+		"heading": "The Downside of Native Apps",
+		"contentFile": "native-apps-drawbacks"
+	},
+	{
+		"heading": "The Upside of PWA's",
+		"contentFile": "pwa-over-native-app"
+	},
+	{
+		"heading": "How We Can Incorporate PWA's Into Client Projects"
+	},
+	{
+		"heading": "Imaginary Client A",
+		"subHeading": "Ladage &amp; Heap Investments",
+		"contentFile": "imaginary-client-a-overview"
+	},
+	{
+		"heading": "Imaginary Client A",
+		"subHeading": "Ladage &amp; Heap Investments",
+		"contentFile": "imaginary-client-a-checklist"
+	},
+	{
+		"heading": "But...",
+		"subHeading": "(there's always a but)"
+	},
+	{
+		"heading": "Challenges Within Our Control",
+		"contentFile": "challenges-within-control"
+	},
+	{
+		"heading": "Challenges Outside of Our Control",
+		"contentFile": "challenges-outside-control"
+	},
+	{
+		"heading": "PWA's in the Wild"
+	},
+	{
+		"heading": "Examples",
+		"contentFile": "pwa-examples"
+	},
+	{
+		"heading": "THIS PRESENTATION!"
+	},
+	{
+		"heading": "Discovering PWA's",
+		"subHeading": "Go Find 'Em Yourself!"
+	},
+	{
+		"heading": "Discovering PWA's",
+		"contentFile": "discovering-pwas"
+	},
+	{
+		"heading": "Let's Revisit Steve and His iPhone"
+	},
+	{
+		"heading": "iPhone Apps Timeline",
+		"contentFile": "iphone-apps-timeline"
+	},
+	{
+		"contentFile": "iphone-video-revised"
+	},
+	{
+		"heading": "Thank You.",
+		"subHeading": "Now go forth and PWA!"
 	}
-
-
 ]
