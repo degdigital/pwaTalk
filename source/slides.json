@@ -69,5 +69,51 @@
 	{
 		"heading": "Standard Traits",
 		"contentFile": "standard-pwa-traits"
+	},
+	{
+		"heading": "Secure",
+		"contentFile": "standard-pwa-traits-secure"
+	},
+	{
+		"heading": "Responsive",
+		"contentFile": "standard-pwa-traits-responsive"
+	},
+	{
+		"heading": "Progressive",
+		"contentFile": "standard-pwa-traits-progressive"
+	},
+	{
+		"heading": "Evergreen",
+		"contentFile": "standard-pwa-traits-evergreen"
+	},
+	{
+		"heading": "Linkable",
+		"contentFile": "standard-pwa-traits-linkable"
+	},
+	{
+		"heading": "Advanced Traits",
+		"contentFile": "advanced-pwa-traits"
+	},
+	{
+		"heading": "Feel Link an App",
+		"contentFile": "advanced-pwa-traits-app-feel"
+	},
+	{
+		"heading": "Installable",
+		"contentFile": "advanced-pwa-traits-installable"
+	},
+	{
+		"heading": "Connectivity-independent",
+		"contentFile": "advanced-pwa-traits-offline"
+	},
+	{
+		"heading": "Discoverable",
+		"contentFile": "advanced-pwa-traits-discoverable"
+	},
+	{
+		"heading": "Re-engageable",
+		"contentFile": "advanced-pwa-traits-re-engageable"
 	}
+
+
 ]
