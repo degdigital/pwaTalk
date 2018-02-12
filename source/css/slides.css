@@ -3,7 +3,7 @@
     flex-direction: column;
     flex-grow: 1;
     padding: 1rem;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .slide {
