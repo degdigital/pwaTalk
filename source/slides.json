@@ -153,7 +153,32 @@
 	{
 		"heading": "Imaginary Client A",
 		"subHeading": "Ladage &amp; Heap Investments",
+		"contentFile": "imaginary-client-a-checklist-empty"
+	},
+	{
+		"heading": "Imaginary Client A",
+		"subHeading": "Ladage &amp; Heap Investments",
 		"contentFile": "imaginary-client-a-checklist"
+	},
+	{
+		"heading": "Imaginary Client B",
+		"subHeading": "Legos! Legos! Legos! Inc.",
+		"contentFile": "imaginary-client-b-overview"
+	},
+	{
+		"heading": "Imaginary Client B",
+		"subHeading": "Legos! Legos! Legos! Inc.",
+		"contentFile": "imaginary-client-b-checklist-empty"
+	},
+	{
+		"heading": "Imaginary Client B",
+		"subHeading": "Legos! Legos! Legos! Inc.",
+		"contentFile": "imaginary-client-b-checklist"
+	},
+	{
+		"heading": "Imaginary Client C",
+		"subHeading": "??????",
+		"contentFile": "imaginary-client-c-checklist-empty"
 	},
 	{
 		"heading": "But...",
