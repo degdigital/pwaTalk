@@ -1,7 +1,8 @@
 [
 	{
 		"heading": "R.O.C.K in the P.W.A.",
-		"subHeading": "Fun with Progressive Web Applications"
+		"subHeading": "Fun with Progressive Web Applications",
+		"isCentered": true
 	},
 	{
 		"contentFile": "intro-steve-jobs-image" 
@@ -22,15 +23,14 @@
 		"contentFile": "intro-iphone-video"
 	},
 	{
-		"heading": "Why Did This Happen?"
-	},
-	{
 		"heading": "Native Apps vs Web Apps",
-		"subHeading": "Fight! Fight! Fight!"
+		"subHeading": "Fight! Fight! Fight!",
+		"isCentered": true
 	},
 	{
 		"heading": "Native Apps",
-		"subHeading": "The Good and the Bad"
+		"subHeading": "The Good and the Bad",
+		"isCentered": true
 	},
 	{
 		"heading": "The Upside of Native Apps",
@@ -42,7 +42,8 @@
 	},
 	{
 		"heading": "Web Apps",
-		"subHeading": "The Good and the Bad"
+		"subHeading": "The Good and the Bad",
+		"isCentered": true
 	},
 	{
 		"heading": "The Upside of Web Apps",
@@ -53,18 +54,21 @@
 		"contentFile": "web-apps-drawbacks"
 	},
 	{
-		"heading": "The Web is Catching Up"
+		"heading": "The Web is Catching Up",
+		"isCentered": true
 	},
 	{
 		"heading": "Enter the PWA",
-		"subHeading": "(pronounced /pwä/)"
+		"subHeading": "(pronounced /pwä/)",
+		"isCentered": true
 	},
 	{
 		"heading": "What the Devil is a PWA?",
 		"contentFile": "what-is-a-pwa"
 	},
 	{
-		"heading": "Characteristics of a PWA"
+		"heading": "Characteristics of a PWA",
+		"isCentered": true
 	},
 	{
 		"heading": "Standard Traits",
@@ -115,7 +119,8 @@
 		"contentFile": "advanced-pwa-traits-re-engageable"
 	},
 	{
-		"heading": "How PWA's Improve Upon Traditional Web Apps"
+		"heading": "How PWA's Improve Upon Traditional Web Apps",
+		"isCentered": true
 	},
 	{
 		"heading": "The Downside of Web Apps",
@@ -126,7 +131,8 @@
 		"contentFile": "pwa-over-trad-website"
 	},
 	{
-		"heading": "How PWA's Improve Upon Native Apps"
+		"heading": "How PWA's Improve Upon Native Apps",
+		"isCentered": true
 	},
 	{
 		"heading": "The Downside of Native Apps",
@@ -137,7 +143,8 @@
 		"contentFile": "pwa-over-native-app"
 	},
 	{
-		"heading": "How We Can Incorporate PWA's Into Client Projects"
+		"heading": "How We Can Incorporate PWA's Into Client Projects",
+		"isCentered": true
 	},
 	{
 		"heading": "Imaginary Client A",
@@ -151,7 +158,8 @@
 	},
 	{
 		"heading": "But...",
-		"subHeading": "(there's always a but)"
+		"subHeading": "(there's always a but)",
+		"isCentered": true
 	},
 	{
 		"heading": "Challenges Within Our Control",
@@ -162,25 +170,29 @@
 		"contentFile": "challenges-outside-control"
 	},
 	{
-		"heading": "PWA's in the Wild"
+		"heading": "PWA's in the Wild",
+		"isCentered": true
 	},
 	{
 		"heading": "Examples",
 		"contentFile": "pwa-examples"
 	},
 	{
-		"heading": "THIS PRESENTATION!"
+		"heading": "THIS PRESENTATION!",
+		"isCentered": true
 	},
 	{
 		"heading": "Discovering PWA's",
-		"subHeading": "Go Find 'Em Yourself!"
+		"subHeading": "Go Find 'Em Yourself!",
+		"isCentered": true
 	},
 	{
 		"heading": "Discovering PWA's",
 		"contentFile": "discovering-pwas"
 	},
 	{
-		"heading": "Let's Revisit Steve and His iPhone"
+		"heading": "Let's Revisit Steve and His iPhone",
+		"isCentered": true
 	},
 	{
 		"heading": "iPhone Apps Timeline",
@@ -191,6 +203,7 @@
 	},
 	{
 		"heading": "Thank You.",
-		"subHeading": "Now go forth and PWA!"
+		"subHeading": "Now go forth and PWA!",
+		"isCentered": true
 	}
 ]

@@ -6,6 +6,7 @@ const slidesContainerEl = document.querySelector('.js-slides-container');
 const loaderInst = loader();
 const navInst = nav();
 const slideClass = 'js-slide';
+const slideCenteredClass = 'slide--centered';
 const hiddenClass = 'is-hidden';
 const subscribeUrl = 'https://us-central1-pwatalk.cloudfunctions.net/subscribeTokenToTopic';
 const topic = 'pwaDemo';
@@ -76,7 +77,7 @@ function saveSlideData(slideData) {
 function renderSlides(slideData) {
 	replaceContent(slidesContainerEl, slideData.reduce((output, slide, index) => `
 		${output}
-		<section class="slide ${slideClass} slide--${index} ${hiddenClass}">
+		<section class="slide ${slideClass} slide--${index} ${hiddenClass} ${slide.isCentered ? slideCenteredClass : ''}">
 			<div class="slide__contents-wrapper">
 				${slide.heading ? `<h1 class="slide__heading">${slide.heading}</h1>` : ''}
 				${slide.subHeading ? `<h2 class="slide__subheading">${slide.subHeading}</h2>` : ''}
