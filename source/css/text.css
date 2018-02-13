@@ -17,3 +17,7 @@
 .text--reduced-size {
     font-size: responsive 12px 28px;
 }
+
+h3 {
+    margin-top: 0;
+}
