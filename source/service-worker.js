@@ -65,9 +65,7 @@ var filesToCache = [
 	'/images/icons/favicon-32x32.png',
 	'/images/icons/favicon-96x96.png',
 	'/images/icons/favicon.ico',
-	'/videos/pwaforthat.mp4',
-	'https://www.gstatic.com/firebasejs/4.8.1/firebase-app.js',
-	'https://www.gstatic.com/firebasejs/4.8.1/firebase-messaging.js'
+	'/videos/pwaforthat.mp4'
 ];
 
 self.addEventListener('install', function(e) {
