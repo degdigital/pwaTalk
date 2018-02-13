@@ -29,10 +29,10 @@ function init() {
 function initServiceWorkers() {
 	if ('serviceWorker' in navigator) {
     	navigator.serviceWorker.register('./service-worker.js')
-    		.then(() => navigator.serviceWorker.register('./firebase-messaging-sw.js'))
-    		.then(registration => {
-    			messaging.useServiceWorker(registration);
-    			initMessaging()
+    		// .then(() => navigator.serviceWorker.register('./firebase-messaging-sw.js'))
+    		.then(() => {
+    			// messaging.useServiceWorker(registration);
+    			initMessaging();
     		});
   	}
 }
