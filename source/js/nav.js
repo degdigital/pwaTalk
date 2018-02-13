@@ -36,9 +36,11 @@ const nav = function() {
 
 	function onKeyDown(e) {
 		switch(e.keyCode) {
+			case 33:
 			case 37:
 				goToPreviousSlide();
 				break;
+			case 34:
 			case 39:
 				goToNextSlide();
 				break;
