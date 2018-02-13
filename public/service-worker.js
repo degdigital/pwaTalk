@@ -37,11 +37,27 @@ var filesToCache = [
 	'/images/home.svg',
 	'/images/checkmark.svg',
 	'/images/logo.svg',
+	'/images/slides/discoverable.jpg',
 	'/images/slides/emmet.jpg',
+	'/images/slides/evergreen.jpg',
+	'/images/slides/feels-like-an-app.jpg',
+	'/images/slides/fruit-ninja.jpg',
+	'/images/slides/installable.jpg',
+	'/images/slides/iphone-safari.jpg',
+	'/images/slides/linkable.jpg',
+	'/images/slides/offline.jpg',
+	'/images/slides/progressive-enhancement.jpg',
+	'/images/slides/re-engageable.jpg',
+	'/images/slides/responsive.jpg',
+	'/images/slides/ssl.png',
+	'/images/slides/steve-jobs-small.jpg',
+	'/images/slides/steve-jobs.jpg',
+	'/images/slides/title-bg.jpg',
 	'/images/icons/favicon-16x16.png',
 	'/images/icons/favicon-32x32.png',
 	'/images/icons/favicon-96x96.png',
-	'/images/icons/favicon.ico'
+	'/images/icons/favicon.ico',
+	'/videos/pwaforthat.mp4'
 ];
 
 self.addEventListener('install', function(e) {
