@@ -1,6 +1,6 @@
 [
 	{
-		"heading": "R.O.C.K in the P.W.A.",
+		"heading": "R.O.C.K. in the P.W.A.",
 		"isTitle": true,
 		"isFullBleed": true,
 		"isCentered": true,
@@ -25,7 +25,7 @@
 		"contentFile": "intro-iphone-video"
 	},
 	{
-		"heading": "<strong>Native Apps</strong> vs <strong>Web Apps</strong>",
+		"heading": "Why Isn't There a <em>Web App</em> For That?",
 		"isCentered": true,
 		"isSectionTitle": true
 	},
@@ -61,7 +61,7 @@
 		"isSectionTitle": true
 	},
 	{
-		"heading": "Enter the PWA",
+		"heading": "Say Hello To PWA",
 		"subHeading": "(pronounced /pwä/)",
 		"isCentered": true
 	},
@@ -99,7 +99,7 @@
 		"contentFile": "standard-pwa-traits-linkable"
 	},
 	{
-		"heading": "Advanced Traits",
+		"heading": "Emerging Traits",
 		"contentFile": "advanced-pwa-traits"
 	},
 	{
