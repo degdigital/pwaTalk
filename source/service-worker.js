@@ -57,7 +57,7 @@ var filesToCache = [
 	'/images/slides/ssl.jpg',
 	'/images/slides/steve-jobs-small.jpg',
 	'/images/slides/steve-jobs.jpg',
-	'/images/slides/thumb-up.jpg',
+	'/images/slides/thumbs-up.jpg',
 	'/images/slides/title-bg.jpg',
 	'/images/icons/favicon-16x16.png',
 	'/images/icons/favicon-32x32.png',
