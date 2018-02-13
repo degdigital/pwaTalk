@@ -59,6 +59,7 @@ var filesToCache = [
 	'/images/slides/steve-jobs.jpg',
 	'/images/slides/thumbs-up.jpg',
 	'/images/slides/title-bg.jpg',
+	'/images/slides/twitter-lite.jpg',
 	'/images/icons/favicon-16x16.png',
 	'/images/icons/favicon-32x32.png',
 	'/images/icons/favicon-96x96.png',
