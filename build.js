@@ -67,7 +67,9 @@ const buildImages = () => {
 const buildMisc = () => {
 	const files = [
 		'index.html',
-		'manifest.json'
+		'manifest.json',
+		'service-worker.js',
+		'firebase-messaging-sw.js'
 	];
 
 	files.forEach(file => {

@@ -28,8 +28,8 @@ function init() {
 
 function initServiceWorkers() {
 	if ('serviceWorker' in navigator) {
-    	navigator.serviceWorker.register('./js/service-worker.js')
-    		.then(() => navigator.serviceWorker.register('./js/firebase-messaging-sw.js'))
+    	navigator.serviceWorker.register('./service-worker.js')
+    		.then(() => navigator.serviceWorker.register('./firebase-messaging-sw.js'))
     		.then(registration => {
     			messaging.useServiceWorker(registration);
     			initMessaging()
