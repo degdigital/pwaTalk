@@ -49,7 +49,7 @@ var filesToCache = [
 	'/images/slides/progressive-enhancement.jpg',
 	'/images/slides/re-engageable.jpg',
 	'/images/slides/responsive.jpg',
-	'/images/slides/ssl.png',
+	'/images/slides/ssl.jpg',
 	'/images/slides/steve-jobs-small.jpg',
 	'/images/slides/steve-jobs.jpg',
 	'/images/slides/title-bg.jpg',
